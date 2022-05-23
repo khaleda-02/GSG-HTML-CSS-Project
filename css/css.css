@@ -82,7 +82,7 @@ main {
   height: 100vh;
   z-index: 99;
   position: relative;
-}
+} 
 
 main::after {
   content: "";
@@ -95,7 +95,12 @@ main::after {
   right: 0;
   opacity: 0.9;
 }
-
+.down{
+  position: absolute;
+  bottom: 60px;
+  right: 50%;
+  font-size: 40px;
+}
 main .content {
   position: absolute;
   top: 50%;
