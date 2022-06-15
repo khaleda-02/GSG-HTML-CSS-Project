@@ -174,7 +174,9 @@ main .content .links a i {
 .about .container h1 {
   text-transform: capitalize;
   padding: 0 20px 20px 0;
+  font-size: 37px;
   color: var(--mainColor);
+  font-weight: 800;
 }
 
 .about .container .basic-info {
